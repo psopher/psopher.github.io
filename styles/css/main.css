@@ -7,7 +7,7 @@
 /* Document
    ========================================================================== */
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   /* 1 */
   line-height: 1.15;
   /* 2 */
@@ -15,4 +15,108 @@ html {
   /* 3 */
   -webkit-text-size-adjust: 100%;
   /* 3 */
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+
+/* Text */
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+}
+
+p1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+/* Header */
+
+header {
+  background: url(/images/HD_1440/hd_landing.png) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Sections */
+
+/* What is CREPO */
+
+.what-is-crepo {
+  background: #FFE30A;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+/* CREPO animation */
+
+.crepo-animation {
+  background: #559B1E;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Who is PPA */
+
+.who-is-ppa {
+  background: url(/images/HD_1440/hd_blue_sky.png) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Our Services */
+
+.our-services {
+  background: url(/images/HD_1440/hd_snow.png) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: left;
+}
+
+/* Peter Sopher */
+
+.peter-sopher-president {
+  background: #F5F5F5;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background: #050505;
+  height: 60vh;
+  justify-content: center;
+  text-align: left;
+}
+
+.contact-email-text {
+  color: #F5F5F5;
+}
+
+.address {
+  color: #F5F5F5;
+}
+
+/* Lists */
+.social-nav {
+  list-style: none;
+}
+
+.address {
+  list-style: none;
+}
+
+.ppa-services {
+  list-style-image: url('/images/HD_1440/hd_logo_bullet_15.png');
+}

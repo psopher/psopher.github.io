@@ -1,0 +1,15 @@
+$ppaBlue: rgb(41, 11, 184);
+$ppaBlueSaturated :  #290BB8;
+$lightBlue: lighten($ppaBlue, 20%);
+
+$copyColor:  #6F6F6F; // medium gray
+$lightGray: #C8C8C8; //Light Gray
+$offWhite: #F5F5F5; //Off White
+
+$darkOverlay: rgba(0,0,0,0.5);
+
+/* Accint gradient color stops*/
+$ppaGradient-light: #F5F5F5;
+$ppaGradient-medium-light: #9BC7ED;
+$ppaGradient-medium-dark: #3E98E5;
+$ppaGradient-dark: #2709B2;
