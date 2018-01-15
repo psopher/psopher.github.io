@@ -21,7 +21,7 @@ html {
 
 body {
   margin: 0;
-  background-color: F5F5F5;
+  background-color: #F5F5F5;
 }
 
 /* Text */
@@ -64,7 +64,8 @@ nav {
   height: 700px;
   justify-content: left;
   text-align: left;
-  margin-bottom: 0;
+  margin: 0 1% 0 1%;
+  width: 98%;
 }
 
 .logo {
@@ -95,48 +96,67 @@ nav {
   font-weight: bold;
 }
 
-/* What is CREPO */
+/* Container */
 
-main {
-  display: inline-block;
+.container {
+  margin: 0px auto;
+  width: 100%;
+  text-align: center;
 }
+
+.container div {
+  float: left;
+  margin: 1% 1% 1% 1%;
+  width: 48%;
+}
+
+/* What is CREPO */
 
 .what-is-crepo {
   background: #FFE30A;
-  height: 60vh;
-  justify-content: center;
+  background-size: cover;
   text-align: center;
-  width: 48%;
-  display: inline-block;
+  float: left;
+  height: 500px;
 }
 
 /* CREPO animation */
 
 .crepo-animation {
   background: #559B1E;
-  height: 60vh;
+  background-size: cover;
   justify-content: center;
   text-align: center;
-  width: 48%;
-  display: inline-block;
+  float: left;
+  height: 500px;
 }
 
 /* Who is PPA */
 
 .who-is-ppa {
   background: url(/images/HD_1440/hd_blue_sky.png) center / cover;
-  height: 60vh;
-  justify-content: center;
+  background-size: cover;
   text-align: center;
+  float: left;
+  height: 500px;
+}
+
+.ppa-about-title {
+  color: #F5F5F5;
+}
+
+.ppa-about-description {
+  color: #F5F5F5;
 }
 
 /* Our Services */
 
 .our-services {
   background: url(/images/HD_1440/hd_snow.png) center / cover;
-  height: 60vh;
-  justify-content: center;
-  text-align: left;
+  background-size: cover;
+  text-align: center;
+  float: left;
+  height: 500px;
 }
 
 /* Peter Sopher */
@@ -146,15 +166,18 @@ main {
   height: 60vh;
   justify-content: center;
   text-align: center;
+  float: left;
 }
 
 /* Footer */
 
-footer {
+.footer {
   background: #050505;
-  height: 60vh;
-  justify-content: center;
-  text-align: left;
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 0;
+  height: 250px;
 }
 
 .contact-email-text {
