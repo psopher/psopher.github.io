@@ -39,6 +39,7 @@ h2 {
 p1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+  margin-bottom: 15px;
 }
 
 /* Nav Bar */
@@ -156,7 +157,7 @@ nav {
   background: url(/images/HD_1440/hd_blue_sky.png) center / cover;
   background-size: cover;
   float: left;
-  height: 700px;
+  height: 800px;
 }
 
 .ppa-about-title {
@@ -184,7 +185,7 @@ nav {
   background-size: cover;
   text-align: center;
   float: left;
-  height: 700px;
+  height: 800px;
 }
 
 .our-services-title{
@@ -212,7 +213,7 @@ nav {
 
 .peter-sopher-president {
   background: #F5F5F5;
-  height: 800px;
+  height: 900px;
   justify-content: center;
   float: left;
 }
