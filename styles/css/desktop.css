@@ -46,7 +46,9 @@
     }
 
     .logo {
-      float: left;
+      left: 0;
+      position: fixed;
+      margin: 0;
       margin-left: 20px;
       margin-top: 20px;
     }

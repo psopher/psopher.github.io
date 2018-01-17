@@ -17,9 +17,65 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 3 */
   box-sizing: border-box;
+
+  height: 100%;
 }
 
-body {
+.body-landing {
   margin: 0;
   background-color: #F5F5F5;
+}
+
+.body-crepo {
+  margin: 0;
+  background-color: #290BB8;
+  background: linear-gradient(to bottom right, #290BB8, #3E98E5, #F5F5F5);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.logo-crepo {
+  left: 0;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.use-crepo {
+  background-color: #F5F5F5;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.use-crepo-title{
+  font-weight: bold;
+  text-align: center;
+  padding-top: 75px;
+  margin-bottom: 50px;
+}
+
+.use-crepo-explanation{
+  display: inline-block;
+  padding-left: 20%;
+  padding-right: 20%;
+
+  /* Needs prefixing */
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.question-numbers{
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  padding-left:0;
+}
+
+.submit-button-div{
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 75px;
 }
