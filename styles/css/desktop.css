@@ -45,12 +45,10 @@
       width: 98%;
     }
 
-    .logo {
-      left: 0;
-      position: fixed;
-      margin: 0;
-      margin-left: 20px;
-      margin-top: 20px;
+    .ppa-logo{
+      float: left;
+      position: relative;
+      margin: 20px 0px 0px 30px;
     }
 
     .landing-text-name{
