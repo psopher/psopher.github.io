@@ -23,264 +23,331 @@
     <!-- Custom Styles
     <link rel="stylesheet" href="styles/css/reset.css"> -->
     <link rel="stylesheet" href="styles/css/main.css">
+    <link rel="stylesheet" href="styles/css/sliders.css">
     <link rel="stylesheet" href="styles/css/mobile.css">
     <link rel="stylesheet" href="styles/css/tablet.css">
     <link rel="stylesheet" href="styles/css/desktop.css">
     <link rel="stylesheet" href="styles/css/desktop_hd.css">
   </head>
-  <body class="body-crepo">
+  <body class="body-crepo" onbeforeunload='document.write("closing window..");'>
     <div class="logo-crepo">
       <span class="ppa-logo"><a href="/index.html"><img src="images/HD_1440/hd_bold_turbine_59.png"/></a></span>
     </div>
     <div class="use-crepo">
       <h1 class="use-crepo-title">Use Crepo</h1>
       <p1 class="use-crepo-explanation">Accessing CREPO is as easy as filling in the questionnaire below. For those who would appreciate assistance in filling out the questionnaire or who would rather use CREPO offline, send an email to peter@ppa-re.com.</p1>
-      <form action="https://docs.google.com/forms/d/e/1FAIpQLScvpNclIZ0ZdX2p9N9Ij_EnXS6rwRuKEAG9qGtdztOonPSBuQ/formResponse" method="POST" class="form">
+      <script type="text/javascript">var submitted=false;</script>
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+              onload="if(submitted) {window.location='form-complete.html';}"></iframe>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLScvpNclIZ0ZdX2p9N9Ij_EnXS6rwRuKEAG9qGtdztOonPSBuQ/formResponse" method="POST" class="form" target="hidden_iframe"
+            onsubmit="submitted=true;">
         <ol class="question-numbers">
           <li>
             <p1 class="question-1">How much of a priority is being sheltered from grid <strong>reliability</strong> issues for you?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.157793116" id="group_157793116_1">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-1-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.157793116" id="question-1-id">
+              <p1 class="slider-low" id="question-1-low">0</p1>
+              <p1 class="slider-high" id="question-1-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-2">How much of a priority is being sheltered from expensive <strong>peak pricing</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.137543175" id="group_137543175_1">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-2-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.137543175" id="question-2-id">
+              <p1 class="slider-low" id="question-2-low">0</p1>
+              <p1 class="slider-high" id="question-2-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-3">How much of a priority is environmental credibility, as it relates to <strong>additionality</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.709857861" id="group_709857861_1">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-3-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.709857861" id="question-3-id">
+              <p1 class="slider-low" id="question-3-low">0</p1>
+              <p1 class="slider-high" id="question-3-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-4">How much of a priority is <strong>controlling the types of generation assets</strong> that power your facilities, for environmental credibility or any other reason?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1405031073" id="group_1405031073_1">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-4-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1405031073" id="question-4-id">
+              <p1 class="slider-low" id="question-4-low">0</p1>
+              <p1 class="slider-high" id="question-4-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-5">How much of a priority is it that the compliance mechanism improve the <strong>diversification of electricity supply</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.610116377" id="group_610116377_1">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-5-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.610116377" id="question-5-id">
+              <p1 class="slider-low" id="question-5-low">0</p1>
+              <p1 class="slider-high" id="question-5-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-6">How much of a priority is it that the RE procurement mechanism could yield <strong>favorable economics</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.930741151" id="group_930741151_1">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-6-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.930741151" id="question-6-id">
+              <p1 class="slider-low" id="question-6-low">0</p1>
+              <p1 class="slider-high" id="question-6-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-7">How much of a priority is it that your project have fixed electricity costs for the project’s lifetime (<strong>long term predictable costs</strong>)?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1772236628" id="group_1772236628">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-7-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1772236628" id="question-7-id">
+              <p1 class="slider-low" id="question-7-low">0</p1>
+              <p1 class="slider-high" id="question-7-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-8">How much of a priority is potential for <strong>local impact</strong> (environmental, economic, etc.) via this project?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1498040626" id="group_1498040626">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-8-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1498040626" id="question-8-id">
+              <p1 class="slider-low" id="question-8-low">0</p1>
+              <p1 class="slider-high" id="question-8-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-9">From an environmental and marketing perspective, how much of a priority is <strong>driving new RE capacity</strong> via this project?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1493790551" id="group_1493790551">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-9-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1493790551" id="question-9-id">
+              <p1 class="slider-low" id="question-9-low">0</p1>
+              <p1 class="slider-high" id="question-9-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-10">How much of a priority is it that no <strong>up-front capital costs</strong> result from this project for you?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.426178248" id="group_426178248">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-10-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.426178248" id="question-10-id">
+              <p1 class="slider-low" id="question-10-low">0</p1>
+              <p1 class="slider-high" id="question-10-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-11">How much of a priority is it that a third party assumes <strong>operations and maintenance responsibilities</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1338143188" id="group_1338143188">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-11-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1338143188" id="question-11-id">
+              <p1 class="slider-low" id="question-11-low">0</p1>
+              <p1 class="slider-high" id="question-11-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-12">How much of a priority is it that a third party assumes <strong>risks related to the project’s underperformance</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1012645801" id="group_1012645801">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-12-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1012645801" id="question-12-id">
+              <p1 class="slider-low" id="question-12-low">0</p1>
+              <p1 class="slider-high" id="question-12-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-13">How much of a priority is it that this mechanism facilitates transactions with large RE projects with <strong>economies of scale</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1540483561" id="group_1540483561">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-13-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1540483561" id="question-13-id">
+              <p1 class="slider-low" id="question-13-low">0</p1>
+              <p1 class="slider-high" id="question-13-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-14">How much of a priority is the possibility for <strong>price hedging</strong> (ex. Fixed PPA price or contract-for-difference)?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1731730891" id="group_1731730891">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-14-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1731730891" id="question-14-id">
+              <p1 class="slider-low" id="question-14-low">0</p1>
+              <p1 class="slider-high" id="question-14-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-15">How much of a priority is <strong>ease of transaction</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.585379107" id="group_585379107">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-15-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.585379107" id="question-15-id">
+              <p1 class="slider-low" id="question-15-low">0</p1>
+              <p1 class="slider-high" id="question-15-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-16">How much of a priority is it that the mechanism used is <strong>viable in a regulated market</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1609602486" id="group_1609602486">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-16-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1609602486" id="question-16-id">
+              <p1 class="slider-low" id="question-16-low">0</p1>
+              <p1 class="slider-high" id="question-16-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-17">How much of a priority is the ability to <strong>work directly through a service provider</strong> (i.e., the vertically integrated utility)?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.2002887163" id="group_2002887163">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-17-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.2002887163" id="question-17-id">
+              <p1 class="slider-low" id="question-17-low">0</p1>
+              <p1 class="slider-high" id="question-17-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-18">How much of a priority is it that the mechanism <strong>NOT entail a long term commitment</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1791758698" id="group_1791758698">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-18-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1791758698" id="question-18-id">
+              <p1 class="slider-low" id="question-18-low">0</p1>
+              <p1 class="slider-high" id="question-18-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-19">From an environmental credibility perspective, how important is it for you that the RE compliance mechanism <strong>preclude potential for double-counting</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.213472250" id="group_213472250">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-19-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.213472250" id="question-19-id">
+              <p1 class="slider-low" id="question-19-low">0</p1>
+              <p1 class="slider-high" id="question-19-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-20">How much of a priority is it that the mechanism used NOT require the utilization of a substantial <strong>amount of land</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.437859135" id="group_437859135">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-20-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.437859135" id="question-20-id">
+              <p1 class="slider-low" id="question-20-low">0</p1>
+              <p1 class="slider-high" id="question-20-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-21">How okay are you with a compliance mechanism whose favorable economics are <strong>reliant on net metering</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1706056037" id="group_1706056037">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-21-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1706056037" id="question-21-id">
+              <p1 class="slider-low" id="question-21-low">0</p1>
+              <p1 class="slider-high" id="question-21-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-22">How okay are you with a compliance mechanism whose favorable economics are <strong>reliant on favorable interconnection rules</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1268917197" id="group_1268917197">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-22-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1268917197" id="question-22-id">
+              <p1 class="slider-low" id="question-22-low">0</p1>
+              <p1 class="slider-high" id="question-22-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-23">How much of a priority is avoiding complexity related to <strong>permitting, inspection, and/or zoning</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.571260593" id="group_571260593">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-23-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.571260593" id="question-23-id">
+              <p1 class="slider-low" id="question-23-low">0</p1>
+              <p1 class="slider-high" id="question-23-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-24">Is it a problem if the compliance mechanism is difficult to implement on <strong>leased land</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.918853530" id="group_918853530">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-24-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.918853530" id="question-24-id">
+              <p1 class="slider-low" id="question-24-low">0</p1>
+              <p1 class="slider-high" id="question-24-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-25">How problematic is the prospect of reliance on favorable regulations related to <strong>contracts with third parties</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.84684721" id="group_84684721">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-25-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.84684721" id="question-25-id">
+              <p1 class="slider-low" id="question-25-low">0</p1>
+              <p1 class="slider-high" id="question-25-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-26">How problematic is it for you if the compliance mechanism used involves <strong>complex processes</strong> (internal and/or external) that are often time consuming?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1675662609" id="group_1675662609">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-26-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1675662609" id="question-26-id">
+              <p1 class="slider-low" id="question-26-low">0</p1>
+              <p1 class="slider-high" id="question-26-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-27">How problematic is power price risk and basis risk if the project is located in a <strong>region that is different from where the energy is consumed</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1156481222" id="group_1156481222">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-27-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1156481222" id="question-27-id">
+              <p1 class="slider-low" id="question-27-low">0</p1>
+              <p1 class="slider-high" id="question-27-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-28">How problematic is it if the value of the selected compliance mechanism is not <strong>easy to communicate</strong> externally?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1496069421" id="group_1496069421">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-28-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1496069421" id="question-28-id">
+              <p1 class="slider-low" id="question-28-low">0</p1>
+              <p1 class="slider-high" id="question-28-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-29">How problematic is it if you have minimal <strong>control over project details</strong>?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1880543464" id="group_1880543464">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-29-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1880543464" id="question-29-id">
+              <p1 class="slider-low" id="question-29-low">0</p1>
+              <p1 class="slider-high" id="question-29-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-30">How important is consistency in terms of <strong>who supplies the electricity</strong> (i.e. low turnover of suppliers)?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1310524541" id="group_1310524541">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-30-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1310524541" id="question-30-id">
+              <p1 class="slider-low" id="question-30-low">0</p1>
+              <p1 class="slider-high" id="question-30-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-31">How problematic is it if the compliance mechanism relies on <strong>additional (external) subscribers</strong> for economic viability?</p1>
             <div class="range-slider">
-              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1877896730" id="group_1877896730">
-              <span class="range-slider__value">5</span>
+              <div class="range-slider__value" id="question-31-value"><p1>5</p1></div>
+              <input class="range-slider__range" type="range" value="5" min="0" max="10" name="entry.1877896730" id="question-31-id">
+              <p1 class="slider-low" id="question-31-low">0</p1>
+              <p1 class="slider-high" id="question-31-high">10</p1>
             </div>
           </li>
           <li>
             <p1 class="question-32">What is your <strong>name</strong>?*</p1>
             <div class="short-answer">
-              <input class="short-answer__answer" type="text" value="" name="entry.683657308" id="group_683657308" aria-required="true">
+              <input class="short-answer__answer" type="text" value="" name="entry.683657308" id="question-32-id" aria-required="true">
             </div>
           </li>
           <li>
             <p1 class="question-33">Who is your <strong>employer</strong>?*</p1>
             <div class="short-answer">
-              <input class="short-answer__answer" type="text" value="" name="entry.594175221" id="group_594175221" aria-required="true">
+              <input class="short-answer__answer" type="text" value="" name="entry.594175221" id="question-33-id" aria-required="true">
             </div>
           </li>
           <li>
             <p1 class="question-34">What is the <strong>email</strong> address to which you’d like your CREPO results sent?*</p1>
             <div class="short-answer">
-              <input class="short-answer__answer" type="text" value="" name="entry.729524566" id="group_729524566" aria-required="true">
+              <input class="short-answer__answer" type="text" value="" name="entry.729524566" id="question-34-id" aria-required="true">
             </div>
           </li>
           <li>
             <p1 class="question-35">Are there any particular <strong>states</strong> that are especially relevant to you (say ‘no’ if you’d like results for all 50 states)?*</p1>
             <div class="short-answer">
-              <input class="short-answer__answer" type="text" value="" name="entry.1176342657" id="group_1176342657" aria-required="true">
+              <input class="short-answer__answer" type="text" value="" name="entry.1176342657" id="question-35-id" aria-required="true">
             </div>
           </li>
         </ol>
         <div class="submit-button-div">
-          <input type="submit" name="submit" value="SUBMIT" id="ss-submit" class="submit-button">
+          <input type="submit" name="submit" value="Submit" id="ss-submit" class="submit-button">
         </div>
       </form>
     </div>
@@ -304,6 +371,6 @@
         </span>
       </div>
     </section>
-
+    <script src="scripts/slider.js"></script>
   </body>
 </html>
