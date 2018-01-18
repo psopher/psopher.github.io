@@ -51,6 +51,7 @@
     margin: 20px 0px 0px 30px;
   }
 
+
   .landing-text-name{
     float: left;
     margin-top: 150px;
@@ -269,8 +270,9 @@
 
   .logo-crepo {
     left: 0;
-    margin-left: 20px;
-    margin-top: 20px;
+    top:0;
+    position: absolute;
+    text-align: center;
   }
 
   .use-crepo {

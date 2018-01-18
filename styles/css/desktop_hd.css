@@ -265,7 +265,7 @@
   .logo-crepo {
     left: 0;
     top:0;
-    position: fixed;
+    position: absolute;
     margin-left: 20px;
     margin-top: 20px;
   }
