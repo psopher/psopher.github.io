@@ -10,7 +10,7 @@
 html {
   font-family: 'Open Sans', sans-serif;
   /* 1 */
-  line-height: 1.15;
+  line-height: 1.5;
   /* 2 */
   -ms-text-size-adjust: 100%;
   /* 3 */
@@ -21,17 +21,34 @@ html {
   height: 100%;
 }
 
-a {
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #290BB8;
+  background-color: #FAFAFA;
   color: #290BB8;
+  height: 48px;
+  width: 100px;
+}
+
+button:hover{
+  background-color: #290BB8;
+  color: #FAFAFA;
+}
+
+a {
+  color: #FE2828;
 }
 
 a:hover {
-  color: #FE2828;
+  color: purple;
 }
 
 .body-landing {
   margin: 0;
-  background-color: #F5F5F5;
+  background-color: #FAFAFA;
 }
 
 .body-crepo {
