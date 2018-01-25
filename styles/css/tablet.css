@@ -135,7 +135,7 @@
 
   .container div {
     float: left;
-    margin: 1% 1% 1% 1%;
+    margin: 1% 1% 0% 1%;
     width: 98%;
     overflow: hidden;
   }
