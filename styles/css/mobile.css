@@ -85,10 +85,9 @@
 
   .landing-wind-gif{
     float:left;
-    margin-top: -30px;
-    margin-bottom: -30px;
-    width: 100%;
-    margin-left: 5%;
+    margin-top: 0px;
+    width: 45%;
+    margin-left: 7%;
   }
 
   .wind-gif{
