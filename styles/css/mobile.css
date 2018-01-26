@@ -75,17 +75,29 @@
     margin: 20px 0px 0px 30px;
   }
 
-
   .landing-text-name{
     float: left;
+    margin-left: 10%;
     margin-top: 150px;
-    margin-left: 20%;
     width: 80%;
+  }
+
+  .landing-wind-gif{
+    float:left;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  .wind-gif{
+    width: 40%;
+    margin-top: 0px;
   }
 
   .landing-text-slogan{
     float: left;
-    margin-left: 20%;
+    margin-left: 10%;
     width: 80%;
   }
 
