@@ -44,13 +44,14 @@
       text-align: left;
       margin: 1% 1% 0 1%;
       width: 98%;
-      background: linear-gradient(to right, #290BB8, #3E98E5, #C2DFF8);
+      background: url('/images/HD_1440/hd_landing.png');
+      /*background: linear-gradient(to right, #290BB8, #3E98E5, #C2DFF8);
       background-size: 600% 600%;
       animation: GradientAnimation 12s ease infinite;
 
       -webkit-animation: GradientAnimation 12s ease infinite;
       -moz-animation: GradientAnimation 12s ease infinite;
-      animation: GradientAnimation 12s ease infinite;
+      animation: GradientAnimation 12s ease infinite;*/
     }
 
     @-webkit-keyframes GradientAnimation {
